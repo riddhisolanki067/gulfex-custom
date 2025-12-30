@@ -250,7 +250,7 @@ fixtures = [
                 "module",
                 "in",
                 [
-                    "gulfex"
+                    "Gulfex Custom"
                 ],
             ]
         ],
