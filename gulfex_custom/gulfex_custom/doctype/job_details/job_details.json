@@ -3,6 +3,7 @@
  "allow_rename": 1,
  "creation": "2025-12-30 22:42:55.805888",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "job",
@@ -10,16 +11,20 @@
  ],
  "fields": [
   {
+   "columns": 3,
    "fieldname": "job",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_preview": 1,
    "label": "Job",
    "options": "Project"
   },
   {
+   "columns": 3,
    "fieldname": "job_id",
    "fieldtype": "Data",
    "in_list_view": 1,
+   "in_preview": 1,
    "label": "Job Id"
   }
  ],
@@ -27,7 +32,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-12-30 23:39:25.595916",
+ "modified": "2025-12-31 00:34:41.831621",
  "modified_by": "Administrator",
  "module": "Gulfex Custom",
  "name": "Job Details",
